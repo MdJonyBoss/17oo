@@ -1,0 +1,112 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    height: 4rem;
+    background-color: rgb(255, 255, 255);
+}
+.logo{
+    width: 30%;
+}
+.logo img{
+    width: 25%;
+}
+.list{
+   width: 40%;
+}
+li{
+    float: left;
+    list-style-type: none;
+    padding: 20px;
+    padding-left: 15px;
+}
+.button{
+    padding: 20px;
+    margin-left: 190px;
+    border-radius: 50%;
+
+}
+.hero{
+    text-align: center;
+    background-image: url(./back2.jpg);
+    height: 25rem;
+    padding: 8rem;
+    color: aliceblue;
+}
+p{
+    font-size: 19px;
+}
+button{
+    height: 2rem;
+    width: 6rem;
+   color: blue;
+   background-color: chartreuse;
+   border-radius: 50%;
+}
+.card{
+    width: 30%;
+    display: flex;
+   
+   
+}
+.card1{
+    width: 33.33%;
+    border: 2px solid black;
+    text-align: center;
+    margin-left: 16rem;
+   font-size: 19px;
+   width: 15rem;
+   background-color: aqua;
+}
+.card1 img{
+    width: 95%;
+}
+.owner{
+    display: flex;
+}
+.text{
+    display: flex;
+    width: 40%;
+
+}
+.img1 {
+    width: 35%;
+    margin-left: 350px;
+   
+   padding-right: 500px;
+  
+}
+.img1 img{
+   
+    height: 20rem;
+    border-radius: 50%;
+    margin-top: 70px;
+}
+h3{
+    text-align: center;
+    font-size: 45px;
+    margin-left: 30rem;
+    color: blue;
+}
+.op{
+    width: 70%;
+    text-align: center;
+    margin-left: 150px;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    border-radius: 50%;
+    margin-top: 40px;
+}
+.gallery{
+    display: flex;
+    margin-top: 50px;
+}
+.top{
+    text-align: center;
+}
+h1{
+    color: blue;
+}
